@@ -3,7 +3,7 @@
 #configure 
 echo "configure begin"
 
-sudo su
+
 
 rmmod openvswitch
 modprobe nf_conntrack

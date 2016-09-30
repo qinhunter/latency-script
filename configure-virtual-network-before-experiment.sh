@@ -5,7 +5,7 @@
 
 echo "configure br0 and eth2................................................."
 
-sudo su
+
 
 ovs-vsctl del-br br0
 
