@@ -7,6 +7,7 @@ sudo apt-get install iperf
 
 
 #install sockperf 
+cd /
 git clone https://github.com/Mellanox/sockperf.git
 cd sockperf
 ./autogen.sh 

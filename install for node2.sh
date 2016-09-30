@@ -7,6 +7,7 @@ sudo apt-get install iperf
 
 
 #install sockperf 
+cd /
 git clone https://github.com/Mellanox/sockperf.git
 cd sockperf
 ./autogen.sh 
@@ -16,7 +17,7 @@ sudo make install
 
 
 #install ovs
-cd ..
+cd /
 wget http://openvswitch.org/releases/openvswitch-2.5.0.tar.gz
 tar xzvf openvswitch-2.5.0.tar.gz 
 cd openvswitch-2.5.0/
