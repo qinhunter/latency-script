@@ -6,6 +6,7 @@ echo "configure begin"
 
 
 rmmod openvswitch
+echo "finish rmmod"
 modprobe nf_conntrack
 modprobe nf_defrag_ipv4
 modprobe nf_defrag_ipv6
