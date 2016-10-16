@@ -22,5 +22,4 @@ ifconfig br0 10.10.1.1 netmask 255.255.255.0
 ifconfig eth2 mtu 9000
 ifconfig br0 mtu 9000
 
-echo "configure net end
-then you need to configure ovs-qos rate-limiter"
+echo "configure net end and then you need to configure ovs-qos rate-limiter"
