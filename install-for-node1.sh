@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #install iperf
-sudo su
+
 apt-get update
 apt-get install iperf
 
