@@ -2,7 +2,7 @@ cd "folder you get from github"
 
 chmod +x *
 
-sudo su first
+sudo su for root first
 
 ./"the script you need for node"
 
