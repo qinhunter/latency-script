@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #install iperf
-sudo su
+
 apt-get update
 apt-get install iperf
 
@@ -28,6 +28,5 @@ apt-get -y install libnl-dev
 make
 make install
 
-echo "finish install 
-go to configure ovs "
+echo "finish install go to configure ovs "
 
