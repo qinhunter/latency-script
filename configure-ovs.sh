@@ -41,5 +41,4 @@ ovs-vsctl --no-wait init
 
 ovs-vswitchd --pidfile --detach
 
-echo "configure end
-go to configure virtual network before experiment"
+echo "configure end and go to configure virtual network before experiment"
