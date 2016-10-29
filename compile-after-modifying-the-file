@@ -1,9 +1,0 @@
-#!/bin/sh
-
-#compile
-cd ..
-cp /boot/config-`uname -r` .config
-yes '' | make oldconfig
-make clean
-make -j `getconf _NPROCESSORS_ONLN` deb-pkg LOCALVERSION=-custom
-cd ..
