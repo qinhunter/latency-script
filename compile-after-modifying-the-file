@@ -1,6 +1,7 @@
 #!/bin/sh
 
 #compile
+cd ..
 cp /boot/config-`uname -r` .config
 yes '' | make oldconfig
 make clean
