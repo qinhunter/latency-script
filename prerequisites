@@ -25,3 +25,4 @@ cd linux-4.9-rc2
 cd net
 cd sched
 ls
+echo "cd /dev/net/sched/"
