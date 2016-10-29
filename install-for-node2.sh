@@ -2,12 +2,14 @@
 
 #install iperf
 
-apt-get update
-apt-get install iperf
+sudo apt-get update
+sudo apt-get install iperf
 
 
 #install sockperf 
 
+sudo apt-get install perl automake autoconf m4 libtool gcc g++
+cd ~
 git clone https://github.com/Mellanox/sockperf.git
 cd sockperf
 ./autogen.sh 
@@ -17,7 +19,7 @@ sudo make install
 
 
 #install ovs
-cd ..
+cd ~
 wget http://openvswitch.org/releases/openvswitch-2.5.0.tar.gz
 tar xzvf openvswitch-2.5.0.tar.gz 
 cd openvswitch-2.5.0/
