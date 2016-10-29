@@ -2,8 +2,8 @@
 
 #install iperf
 
-apt-get update
-apt-get install iperf
+sudo apt-get update
+sudo apt-get install iperf
 
 
 #install sockperf 
